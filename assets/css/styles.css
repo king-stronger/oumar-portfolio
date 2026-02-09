@@ -35,20 +35,20 @@
     --gap-10: clamp(13.5rem, 11.3523rem + 9.5455vw, 18.75rem);
 
     /****************** Colors ************/
-    --bg-dark: hsl(210 10% 10%);
-    --bg: hsl(210 10% 15%);
-    --bg-light: hsl(210 10% 20%);
+    --bg-dark: hsl(240 10% 10%);
+    --bg: hsl(240 10% 15%);
+    --bg-light: hsl(240 10% 20%);
 
-    --text: hsl(210 15% 95%);
-    --text-muted : hsl(210 15% 70%);
+    --text: hsl(240 15% 95%);
+    --text-muted : hsl(240 15% 70%);
 
     --clr-black: hsl(0 5% 5%);
     --clr-white: hsl(0 5% 95%);
-    --clr-accent: hsl(60 71% 45%);
+    --clr-accent: hsl(0 71% 45%);
     --clr-primary: hsl(30 71% 45%);
 
-    --clr-border: hsl(210 15% 20%);
-    --clr-container: hsl(210 17% 88%);
+    --clr-border: hsl(240 15% 20%);
+    --clr-container: hsl(240 17% 88%);
 
     /****************** Shadows ************/
     --shadow-light:
@@ -214,6 +214,12 @@
         }
     }
     /************* Work Education Section *************/
+
+    /************* Projects Section *************/
+    .technologies-section i{
+        color: var(--clr-primary);
+    }
+    /************* Projects Section *************/
 
     /************* Projects Section *************/
     .project-card {
