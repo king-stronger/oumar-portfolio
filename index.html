@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oumar Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1 class="text">Oumar Dicko</h1>
+
+            <nav id="menu">
+                <button id="close-menu">
+                    <i class="ri-close-large-line"></i>
+                </button>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education-work-section" class="nav-link">Work</a>
+                <a href="#education-work-section" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+            </nav>
+            <button id="open-menu">
+                <i class="ri-menu-line"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="about-section" id="about">
+        <div class="wrapper">
+            <div class="presentation about-card flow-sm">
+                <p class="text-md text-lead">
+                    Hello! My name is <strong class="accent">Oumar Dicko</strong>
+                </p>
+
+                <p class="text-sm">
+                    <i class="ri-map-pin-fill text-lead"></i>
+                    <span class="text-lead">Casablanca, Morocco</span>
+                    <ul class="socials">
+                        <li class="text-md">
+                            <a href="https://linkedin.com/" class="social-link ri-linkedin-box-fill"></a>
+                        </li>
+                        <li class="text-md">
+                            <a href="mailto:oumar.dicko1201@gmail.com" class="social-link ri-mail-fill"></a>
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <span class="text-sm">
+                        Finance & Tech professional specialized in capital markets operations, market data,
+                        and regulatory reporting
+                    </span><br>
+                    <span class="text-sm">
+                        I design automated, reliable, and data-driven systems to improve operational
+                        performance and risk control
+                    </span>
+                </p>
+
+                <a href="" class="btn btn-primary">Download CV</a>
+            </div>
+
+            <div class="about-img flow-xs">
+                <img src="assets/images/profile.jpg" alt="Oumar Dicko Profile">
+            </div>
+
+            <div class="about-card flow-xs">
+                <h2 class="text text-bold">Finance & Operations</h2>
+                <p class="text-sm">
+                    Strong background in capital markets operations, client servicing, onboarding,
+                    reconciliation, and regulatory reporting with a focus on process efficiency
+                </p>
+            </div>
+
+            <div class="about-card flow-xs">
+                <h2 class="text text-bold">Data & Automation</h2>
+                <p class="text-sm">
+                    Automation of financial and compliance processes using
+                    <strong class="accent">VBA</strong>,
+                    <strong class="accent">Python</strong>,
+                    <strong class="accent">Power Query</strong> and
+                    <strong class="accent">Power BI</strong>
+                </p>
+            </div>
+
+            <div class="about-card flow-xs">
+                <h2 class="text text-bold">Compliance & Risk</h2>
+                <p class="text-sm">
+                    Experience in KYC, AML/CFT controls, anomaly detection, and regulatory monitoring
+                    to reduce operational and legal risks
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education-work-section" id="education-work-section">
+        <div class="wrapper">
+            <div class="education-work-btns">
+                <button class="popover-btn" data-tab="work">Work</button>
+                <button class="popover-btn" data-tab="education">Education</button>
+            </div>
+
+            <ul class="tab-panel active" data-panel="work">
+                <li>
+                    <span class="text-xs">Oct 2025 – Present</span>
+                    <h3 class="text-xd">Attijariwafa Corporate & Investment Banking</h3>
+                    <p class="text-sm">Client Servicing – Capital Markets</p>
+                </li>
+
+                <li>
+                    <span class="text-xs">Apr 2025 – Aug 2025</span>
+                    <h3 class="text-xd">Ecobank Mali</h3>
+                    <p class="text-sm">Finance Department Intern</p>
+                </li>
+
+                <li>
+                    <span class="text-xs">Feb 2025 – Apr 2025</span>
+                    <h3 class="text-xd">Ecobank Mali</h3>
+                    <p class="text-sm">Compliance Department Intern</p>
+                </li>
+
+                <li>
+                    <span class="text-xs">Feb 2024 – May 2024</span>
+                    <h3 class="text-xd">Delta-Survie</h3>
+                    <p class="text-sm">Internal Audit Intern</p>
+                </li>
+            </ul>
+
+            <ul class="tab-panel" data-panel="education">
+                <li>
+                    <span class="text-xs">2019 – 2024</span>
+                    <h3 class="text-xd">ENCG – Université Mohammed I (Oujda)</h3>
+                    <p class="text-sm">Master’s Degree in Audit & Management Control</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="technologies-section" id="skills">
+        <div class="wrapper flow">
+            <h2 class="text-md text-bold">Skills & Tools</h2>
+            <p class="text-sm">
+                Tools and technologies used to automate, analyze, and secure financial and compliance processes
+            </p>
+
+            <ul class="technology-list">
+                <li class="technology">
+                    <i class="fas fa-file-excel fa-fw"></i>
+                    <span>Excel (Advanced)</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-code fa-fw"></i>
+                    <span>VBA</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-project-diagram fa-fw"></i>
+                    <span>Power Query</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-chart-bar fa-fw"></i>
+                    <span>Power BI</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-python fa-fw"></i>
+                    <span>Python</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-database fa-fw"></i>
+                    <span>SQL</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-chart-line fa-fw"></i>
+                    <span>Financial Analysis</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-file-alt fa-fw"></i>
+                    <span>Regulatory Reporting</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-user-shield fa-fw"></i>
+                    <span>KYC / AML</span>
+                </li>
+                <li class="technology">
+                    <i class="fas fa-clipboard-check fa-fw"></i>
+                    <span>Audit</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <div class="wrapper flow">
+            <h2 class="text-md text-bold">Projects & Achievements</h2>
+            <p class="text-sm">
+                Selected projects focused on automation, reporting, and operational efficiency
+            </p>
+
+            <ul class="project-list">
+                <li class="project-card flow-sm">
+                    <h3 class="text text-bold">BCEAO Regulatory Reporting Automation</h3>
+                    <p class="text-sm">
+                        Automated generation of regulatory reports using VBA and Power Query,
+                        reducing processing time from hours to minutes
+                    </p>
+                </li>
+
+                <li class="project-card flow-sm">
+                    <h3 class="text text-bold">KYC Alerts Processing System</h3>
+                    <p class="text-sm">
+                        Automation of over 250,000 KYC alerts with VBA, cutting analysis time by more than 60%
+                        and reducing required manpower
+                    </p>
+                </li>
+
+                <li class="project-card flow-sm">
+                    <h3 class="text text-bold">Performance Dashboards</h3>
+                    <p class="text-sm">
+                        Design and deployment of Power BI dashboards for branch KPI monitoring and
+                        real-time decision-making
+                    </p>
+                </li>
+
+                <li class="project-card flow-sm">
+                    <h3 class="text text-bold">AML Anomaly Detection Tool</h3>
+                    <p class="text-sm">
+                        VBA-based detection of duplicate IDs and abnormal patterns to strengthen AML/CFT controls
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
